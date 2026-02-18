@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noli Me Tangere: Buod at mga Tauhan</title>
+    <style>
+        /* General Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          background: #c0ceec;
+          color: #333;
+        }
+
+        header {
+          background: #a063a1c1;
+          color: #fffafa;
+          text-align: center;
+          padding: 2rem 1rem;
+        }
+
+        header h1 { font-size: 2.5rem; }
+        header p { font-style: italic; }
+
+        section {
+          padding: 2rem;
+          max-width: 900px;
+          margin: auto;
+        }
+
+        .about img {
+          width: 150px;
+          border-radius: 50%;
+          margin-bottom: 1rem;
+        }
+
+        .skills ul {
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+
+        .skills li {
+          background: #6e8dcb;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+        }
+
+        .projects .card {
+          background: #a063a1c1;
+          padding: 1rem;
+          margin: 1rem 0;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .project-title {
+          cursor: pointer;
+          color: #fff;
+          background: #724d81;
+          padding: 0.5rem;
+          border-radius: 5px;
+          transition: background 0.3s;
+        }
+
+        .project-title:hover {
+          background: #5a3660;
+        }
+
+        .project-images {
+          margin-top: 1rem;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+
+        .project-images img {
+          width: 150px;
+          border-radius: 10px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+          cursor: pointer;
+          transition: transform 0.3s;
+        }
+
+        .project-images img:hover {
+          transform: scale(1.05);
+        }
+
+        .contact a {
+          display: inline-block;
+          margin-right: 1rem;
+          color: #080808;
+          text-decoration: none;
+        }
+
+        footer {
+          text-align: center;
+          padding: 1rem;
+          background: #724d81;
+          color: #fff;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+          .skills ul { flex-direction: column; }
+          .project-images { justify-content: center; }
+        }
+
+        /* Additional repository styling */
+        .file-card { 
+            background-color: #fff8f0; 
+            border: 1px solid #e0c8b0; 
+            padding: 15px; 
+            margin-bottom: 15px; 
+            border-radius: 8px;
+        }
+        .file-card a { color: #800000; text-decoration: none; font-weight: bold; }
+        .file-card a:hover { text-decoration: underline; }
+        .file-card p { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noli Me Tangere: Buod at mga Tauhan ng Nobela</h1>
+        <p>Online repository ni Ken Peralta</p>
+    </header>
+
+    <section>
+        <p>Welcome sa online repository tungkol sa nobelang <em>Noli Me Tangere</em> ni José Rizal. Dito makikita ang buod, mga tauhan, at iba pang mahahalagang dokumento.</p>
+
+        <h2>Mga File</h2>
+
+        <div class="file-card">
+            <a href="Mga-Tauhan-sa-Noli-Me-Tangere.docx" target="_blank">Mga Tauhan sa Noli Me Tangere</a>
+            <p>Listahan at maikling paliwanag tungkol sa pangunahing tauhan at sumusuportang karakter sa nobela.</p>
+        </div>
+
+        <div class="file-card">
+            <a href="Sikat na Linya ng mga tauhan sa Noli.docx" target="_blank">Sikat na Linya ng mga Tauhan</a>
+            <p>Koleksyon ng kilalang linya at dialogue mula sa mga tauhan sa nobela.</p>
+        </div>
+
+        <div class="file-card">
+            <a href="buod.docx" target="_blank">Buod ng Noli Me Tangere</a>
+            <p>Kompletong buod ng nobela, mula simula hanggang katapusan, para madaling maunawaan ang kwento at mensahe nito.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Ken Peralta | © 2026</p>
+    </footer>
+</body>
+</html>
